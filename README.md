@@ -36,6 +36,8 @@ Connect to network (quote SSID if contains spaces)
 
 ## Prevent speakers from turning off randomly due to power save
 
+Credit to edkirin on the [Manjaro Forums](https://forum.manjaro.org/t/finally-got-sound-working-on-lenovo-legion-pro-7-16arx8h/164447) and others on the [Arch Forums](https://bbs.archlinux.org/viewtopic.php?id=304863)
+
 Create a script ```/usr/local/bin/tas2781-fix``` with the following contents:
 ```
 #!/bin/sh
